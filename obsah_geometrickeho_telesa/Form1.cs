@@ -40,7 +40,7 @@ namespace obsah_geometrickeho_telesa
                 double obvod = 5 * strana;
                 double obsahspravne = Math.Round((Math.Sqrt(25 + 10 * Math.Sqrt(5)) / 4) * Math.Pow(strana, 2), 5, MidpointRounding.AwayFromZero);
 
-                string outtextobsah = $"Obsah: {obsahspravne} {textInJednotky.Text}";
+                string outtextobsah = $"Obsah: {obsahspravne}² {textInJednotky.Text}";
                 string outtextobvod = $"Obvod: {obvod} {textInJednotky.Text}";
 
                 textOut.Text = outtextobsah;
