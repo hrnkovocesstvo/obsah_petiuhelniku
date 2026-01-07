@@ -38,24 +38,26 @@
             // 
             // buttonPocitej
             // 
-            this.buttonPocitej.Location = new System.Drawing.Point(560, 229);
+            this.buttonPocitej.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonPocitej.Location = new System.Drawing.Point(421, 35);
             this.buttonPocitej.Name = "buttonPocitej";
-            this.buttonPocitej.Size = new System.Drawing.Size(83, 53);
+            this.buttonPocitej.Size = new System.Drawing.Size(332, 326);
             this.buttonPocitej.TabIndex = 0;
-            this.buttonPocitej.Text = "button1";
+            this.buttonPocitej.Text = "POCITEJ!";
             this.buttonPocitej.UseVisualStyleBackColor = true;
             this.buttonPocitej.Click += new System.EventHandler(this.buttonPocitej_Click);
             // 
             // textInStrana
             // 
-            this.textInStrana.Location = new System.Drawing.Point(228, 91);
+            this.textInStrana.Location = new System.Drawing.Point(193, 46);
             this.textInStrana.Name = "textInStrana";
             this.textInStrana.Size = new System.Drawing.Size(140, 20);
             this.textInStrana.TabIndex = 1;
+            this.textInStrana.TextChanged += new System.EventHandler(this.textInStrana_TextChanged);
             // 
             // textInJednotky
             // 
-            this.textInJednotky.Location = new System.Drawing.Point(228, 185);
+            this.textInJednotky.Location = new System.Drawing.Point(193, 153);
             this.textInJednotky.Name = "textInJednotky";
             this.textInJednotky.Size = new System.Drawing.Size(140, 20);
             this.textInJednotky.TabIndex = 2;
@@ -63,7 +65,8 @@
             // 
             // textOut
             // 
-            this.textOut.Location = new System.Drawing.Point(77, 266);
+            this.textOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textOut.Location = new System.Drawing.Point(39, 221);
             this.textOut.Multiline = true;
             this.textOut.Name = "textOut";
             this.textOut.ReadOnly = true;
@@ -74,7 +77,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(71, 80);
+            this.label1.Location = new System.Drawing.Point(33, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 31);
             this.label1.TabIndex = 4;
@@ -84,7 +87,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(71, 174);
+            this.label2.Location = new System.Drawing.Point(33, 142);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(125, 31);
             this.label2.TabIndex = 5;
@@ -94,7 +97,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(793, 379);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textOut);
